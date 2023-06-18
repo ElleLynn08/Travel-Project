@@ -16,6 +16,7 @@ body {
   grid-gap: 64px;
 }
 .img-responsive {
+  display: block;
   max-width: 100%;
 }
 
@@ -23,8 +24,39 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.card {
+  background: #ffffff;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.btn {
+  background-color: #462cb3;
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3px;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 section {
@@ -104,6 +136,20 @@ main h3 {
   font-weight: 700;
   line-height: 1.5;
   margin: 0;
+}
+
+main h4 {
+  color: #272044;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+main h5 {
+  color: #272044;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 main p {
